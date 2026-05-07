@@ -1,0 +1,9 @@
+{
+  "name": "ai-sdlc",
+  "version": "0.2.0",
+  "description": "AI-DLC framework for BE + Android + iOS teams. Inception produces per-lane stories (acceptance only); Construction picks them up from the inception MCP, decomposes per stack, and ships via TDD with one PR per story.",
+  "skills": [
+    "skills/inception",
+    "skills/construct"
+  ]
+}

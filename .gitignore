@@ -1,0 +1,33 @@
+# --- Secrets (defensive: also covered by sub-.gitignores, repeated here) ---
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+**/.mcp.json
+**/settings.local.json
+**/local.properties
+**/*.keystore
+**/*.jks
+**/*.pem
+**/*.key
+
+# --- OS / IDE ---
+**/.DS_Store
+**/Thumbs.db
+**/.idea/
+**/*.iml
+**/.vscode/
+
+# --- JS/Bun ---
+**/node_modules/
+**/dist/
+**/bun.lockb
+**/*.log
+
+# --- Android / Gradle / Kotlin ---
+**/build/
+**/.gradle/
+**/.kotlin/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
